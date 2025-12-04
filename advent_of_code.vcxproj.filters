@@ -18,15 +18,15 @@
     <ClCompile Include="advent_of_code.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Dial.cpp">
+    <ClCompile Include="Day 01\Dial.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Dial.h">
+    <ClInclude Include="Day 01\Dial.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Password.h">
+    <ClInclude Include="Day 01\Password.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>

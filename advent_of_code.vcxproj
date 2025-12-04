@@ -128,11 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="advent_of_code.cpp" />
-    <ClCompile Include="Dial.cpp" />
+    <ClCompile Include="Day 01\Dial.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Password.h" />
-    <ClInclude Include="Dial.h" />
+    <ClInclude Include="Day 01\Dial.h" />
+    <ClInclude Include="Day 01\Password.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="quest_resources\rotations.txt" />
