@@ -1,4 +1,4 @@
-#include "./Day 01/Dial.h"
+#include "Dial.h"
 
 
 void Dial::rotate(const Instruction& inst)
@@ -25,7 +25,7 @@ void Dial::rotate(const Instruction& inst)
 		default:
 			break;
 	}
-	//printf("#%d Number %d\n", ++(this->iteration),this->currentNumber);
+	printf("#%d Number %d\n", ++(this->iteration),this->currentNumber);
 
 }
 

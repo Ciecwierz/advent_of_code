@@ -1,6 +1,6 @@
 #pragma once
 
-#include "./Day 01/Password.h"
+#include "Password.h"
 #define DIAL_DIVISION 100u
 
 
