@@ -41,3 +41,4 @@
 *.dwo
 
 .vs/
+./advent_of_code/
