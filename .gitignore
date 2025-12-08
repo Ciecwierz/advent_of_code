@@ -41,4 +41,4 @@
 *.dwo
 
 .vs/
-./advent_of_code/x64/Debug
+advent_of_code/x64/Debug
