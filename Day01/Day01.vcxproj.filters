@@ -15,22 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="advent_of_code.cpp">
+    <ClCompile Include="Day01.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Day 01\Dial.cpp">
+    <ClCompile Include="Dial.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Day 01\Dial.h">
+    <ClInclude Include="Dial.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="Day 01\Password.h">
+    <ClInclude Include="Password.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="quest_resources\rotations.txt" />
   </ItemGroup>
 </Project>

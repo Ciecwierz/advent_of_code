@@ -3,7 +3,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include "./Day 01/Dial.h"
+#include "Dial.h"
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     Instruction sequence;
     std::ifstream fileIn;
     std::string line;
-    fileIn.open("./Day 01/quest_resources/rotations.txt", std::ifstream::in);
+    fileIn.open("./quest_resources/rotations.txt", std::ifstream::in);
 
     if(fileIn.is_open())
     {

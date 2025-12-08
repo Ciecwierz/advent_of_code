@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2f0a9520-0d20-4aff-bb9d-20c3129d6cf0}</ProjectGuid>
-    <RootNamespace>adventofcode</RootNamespace>
+    <ProjectGuid>{a71bd136-9ce1-4e52-83e1-af4c6097f713}</ProjectGuid>
+    <RootNamespace>Day01</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="advent_of_code.cpp" />
-    <ClCompile Include="Day 01\Dial.cpp" />
+    <ClCompile Include="Day01.cpp" />
+    <ClCompile Include="Dial.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Day 01\Dial.h" />
-    <ClInclude Include="Day 01\Password.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="quest_resources\rotations.txt" />
+    <ClInclude Include="Dial.h" />
+    <ClInclude Include="Password.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

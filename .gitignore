@@ -40,5 +40,5 @@
 # debug information files
 *.dwo
 
-.vs/
-advent_of_code/x64/Debug
+Day01/.vs/
+Day01/x64/Debug
