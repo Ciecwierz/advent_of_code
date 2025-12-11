@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programowanie\\C\u002B\u002B\\advent_of_code\\advent_of_code\\Day02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A33A5D19-5048-44E6-A385-B5290DD8EA5D}|Day02.vcxproj|D:\\Programowanie\\C\u002B\u002B\\advent_of_code\\advent_of_code\\Day02\\Day02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33A5D19-5048-44E6-A385-B5290DD8EA5D}|Day02.vcxproj|solutionrelative:Day02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Day02.cpp",
+              "DocumentMoniker": "D:\\Programowanie\\C\u002B\u002B\\advent_of_code\\advent_of_code\\Day02\\Day02.cpp",
+              "RelativeDocumentMoniker": "Day02.cpp",
+              "ToolTip": "D:\\Programowanie\\C\u002B\u002B\\advent_of_code\\advent_of_code\\Day02\\Day02.cpp",
+              "RelativeToolTip": "Day02.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-08T18:47:39.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

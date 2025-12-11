@@ -40,5 +40,7 @@
 # debug information files
 *.dwo
 
-./Day01/Day01/.vs/
-./Day01/Day01/x64/Debug
+Day01/Day01/.vs/
+Day01/Day01/x64/Debug
+Day02/Day02/.vs/
+Day02/Day02/x64/Debug
