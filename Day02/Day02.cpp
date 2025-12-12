@@ -25,7 +25,7 @@ int main()
         //std::cout << line << '\n';
         if (!line.empty()) 
         {
-            auto it = convertID(std::move(line));
+            auto it = convertID(line);
             sum += validate(it.first, it.second);
         }
     }
