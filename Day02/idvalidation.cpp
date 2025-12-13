@@ -25,34 +25,63 @@ std::pair<unsigned long long, unsigned long long> convertID(const std::string& r
 unsigned long long validate(unsigned long long first, unsigned long long last)
 {
 	std::string s;
+
 	std::string_view repeat;
+
 	std::size_t letters{ 0 };
+
 	unsigned long long sum{ 0 };
+
 	std::vector<unsigned long long> vec;
+
 	vec.reserve(last - first + 1);
+
 
 	for (auto i = first; i <= last; i++)
 	{
 		s = std::to_string(i);
+
+		const auto len = s.length();
+
 		if (s[0] == '0')
 			vec.push_back(i);
 
-		letters = 0;
-		
+		letters = 1;	
 
 		do 
 		{
-			letters++;
-			if (letters <= s.length())
-				repeat = std::string_view(s).substr(0, letters);
-			else
+		
+			changeString(repeat, s, letters);
+			
+
+			auto res = std::string_view(s).substr(letters).find(repeat);
+			if (res == 0)
+			{
+				letters += repeat.size();
+				if (std::string_view(s).substr(letters).empty())
+				{
+					vec.push_back(i);
+					break;
+				}
+				else if(std::string_view(s).substr(letters).compare(repeat) == 0 && std::string_view(s).substr(letters).length() == repeat.length())
+				{
+					vec.push_back(i);
+					break;
+				}
+		
+				
+			}
+
+
+			else if (res == std::string::npos)
 				break;
+			else
+				letters++;
 		
 			
-		} while (std::string_view(s).substr(letters, s.length() - 1).compare(repeat) != 0);
+		} while (letters < len);
 		
-		if (letters - 1 != s.length())
-			vec.push_back(i);
+		
 
 	}
 
@@ -62,4 +91,22 @@ unsigned long long validate(unsigned long long first, unsigned long long last)
 	}
 
 	return sum;
+}
+
+
+void changeString(std::string_view& rep, const std::string& s, const std::size_t letters)
+{
+	std::string_view sv{ s };
+
+	if (rep.empty())
+	{
+		rep = sv.substr(0, letters);
+		return;
+	}
+
+	if (letters < rep.size() ||
+		sv.compare(letters - rep.size(), rep.size(), rep) != 0)
+	{
+		rep = sv.substr(0, letters);
+	}
 }

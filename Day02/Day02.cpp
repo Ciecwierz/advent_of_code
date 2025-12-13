@@ -22,7 +22,8 @@ int main()
 
     while (getline(file, line, INPUT_FILE_DELIMITER))
     {
-        //std::cout << line << '\n';
+        line.erase(std::remove(line.begin(),line.end(), '\n'), line.end());
+       // std::cout << line << '\n';
         if (!line.empty()) 
         {
             auto it = convertID(line);
