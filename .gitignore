@@ -51,3 +51,5 @@ Release/
 *.VC.db
 *.VC.opendb
 *.vcxproj*
+**/quest_resources/*.txt
+**/*.sln 
