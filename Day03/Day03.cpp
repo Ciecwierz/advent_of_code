@@ -24,6 +24,7 @@ int main()
     }
 
     std::cout << "Joltage is equal to..." << sum << '\n';
+    file.close();
 
     return 0;
 }
